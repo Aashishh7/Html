@@ -1,3 +1,3 @@
-##HTML PROJECT
--PET SHOP
+# Welcome to Pet Shop!
+- A HTML PROJECT
 (IN PROCESS)
