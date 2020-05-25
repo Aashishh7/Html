@@ -1,3 +1,3 @@
-# Welcome to Pet Shop!
+# Welcome to Pet Store!
 - A HTML PROJECT
 (IN PROCESS)
