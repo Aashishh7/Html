@@ -1,0 +1,43 @@
+.flex-container
+{
+    display:flex;
+    justify-content:center;
+}
+
+.flex-container > div
+{
+    margin: 1px;
+    padding: 20px;
+    font-size:50px;
+    font-family: monospace;
+    font-style: bold;
+}
+
+.a
+{
+color:royalblue;
+}
+.n
+{
+    color:red;
+
+}
+.s
+{
+    
+    color:yellow;
+}
+.h
+{
+
+    color:green;
+}
+.r
+{
+    color:tomato;
+}
+.e
+{
+
+    color:purple;
+}
