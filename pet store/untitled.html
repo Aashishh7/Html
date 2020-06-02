@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h1 {text-align: left;}
+h3 {text-align: left;}
+
+p {text-align: center;}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.banner-image{ padding-top: 55px;    
+              padding-bottom: 40px; 
+              text-align: center;     
+             font-size: 20px;
+             font-style: oblique;
+             background-color: rgba(0,0,0, 0.4);
+             background-image: url("s1.jpg"), linear-gradient(#eb01a5, #d13531);
+            background-size: cover;
+}
+
+.banner-content{
+    position:relative; 
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    margin-top: 6%; 
+    margin-bottom: 6%; 
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+.thumbnail img{
+    max-height: 150px; 
+}
+main {
+    min-height: 100vh;
+}
+
+
+.row_style{margin-top: 70px;
+}
+ h2{
+    font-weight: bolder; 
+text-align: center;
+ }
+ .jumbotron_style{
+    margin-top: 70px;
+ }
+ .table_style
+ {margin-top: 70px;
+
+ }
+  h4{font-weight: bolder;
+  }
+
+ .container_style{margin-top: 70px;
+ }
+
+ .add-to-cart {
+    margin: 0;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+
+ }
+ .padding-20 {
+     padding: 20px;
+ }
+ body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+footer{
+    padding: 7px 0; 
+
+    color:#9d9d9d; 
+    bottom: 0; 
+    width: 100%;
+     text-align: center;
+  padding: 15px;
+  background-color: #12343b;
+  color: white; }
+
+.xop-section {
+    max-width: 360px;
+
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.xop-grid{
+margin: 20px 0 0 0;
+padding: 0;
+list-style: none;
+display: block;
+text-align: center;
+width: 100%;
+
+}
+.xor-grid:after{
+clear:both;
+}
+
+.xor-grid:after,.xop-box:before{
+    content: "";
+    display: table;
+}
+.xor-grid li{
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+.xop-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition:0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
+    -moz-transition:0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
+    transition:0.3s ease-in-out,transform 0.3s ease-in-out;
+}
+.xop-box:hover{
+    transform: scale(1.05);
+}
+.xop-img-1{
+background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+}
+.xop-img-2{
+background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+}
+.xop-img-3{
+background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+}
+
+.xop-info{
+position: absolute;
+width: inherit;
+height: inherit;
+
+}
+.xop-info h2{
+    font-family: 'Pacific',cursive;
+    font-weight: 400;
+    color: #fff;
+    font-size:42px;
+    margin: 0 30px;
+    padding: 100px 0 0 0 ;
+    line-height: 1.5;
+}
+.xop-info p{
+    font-family:sans-serif;
+    color: #fff;
+}
+.cssmarquee {
+height: 50px;
+overflow: hidden;
+position: relative;
+}
+.cssmarquee h1 {
+font-size: 2em;
+color: red;
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+transform:translateX(100%);
+animation: cssmarquee 10s linear infinite;
+}
+@keyframes cssmarquee {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
+}
+}
+#navbar {
+
+  height: 60px;
+}
+ </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+       <<div class="header">
+  <a href="#default" class="logo">Pets Shop</a>
+  <div class="header-right">
+    <div id="navbar">
+                <div style="text-align: left; padding: 20px;">
+
+                    <a href="Aboutus.html"><i class="far fa-images"></i> Aboutus</a>
+                  
+                    <a href="cart.html" style="float:right">Cart</a>
+                    <a href="ContactUs.html" style="float:right">ContactUs</a>
+                    <a href="Login.html" style="float:right">Login</a>
+                    <a href="registration.html" style="float:right">SignUp</a>
+                                    </div>
+  </div>
+</div>
+
+<div style="padding-left:20px">
+
+    </header>
+
+    <main>
+        <section class="banner-image">
+            <div class="container">
+                <div class="banner-content">
+
+                <h1 style="color:#fff">Welcome!</h1>
+                <h3 style="color:#f1f1f1">We Sell Pets & Their Food.</h3>
+                  <div class="cssmarquee">
+                     <h1>40% Off On Dogs Food! </h1>
+                      </div>
+                
+<form>
+<input type="button" value="Shop Now" style="position: absolute; left: 0;"onclick="window.location.href='petsfood.html'" />
+</form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="padding-20"></div>
+                <div class="row">
+                    <div class="col-xs-4 text-center">
+                        <div class="thumbnail">
+                            <a href="dogs.html"><img src="dog.png" alt="Dogs"></a>
+                            <div class="caption">
+                                <h2>Dogs</h2>
+                                <p>Best breeded Dogs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <div class="thumbnail">
+                            <a href="cats.html"><img src="cat1.jpg" alt="Cats"></a>
+                            <div class="caption">
+                                <h2>Cats</h2>
+                                <p>Choose among the best available in the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <div class="thumbnail">
+                            <a href="petsfood.html"><img src="petf.jpg" alt="Food"></a>
+                            <div class="caption">
+                                <h2>Pets Food</h2>
+                                <p>Best and Healthy Food.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="padding-20"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>Email: petstore@gmail.in</p>
+      
+            
+        <div class="container">
+            <center>
+                Copyright @Pets Store. All Rights Reserved to Ashish Suri and Anushree Gawali.
+               
+            </center>
+        </div>
+    </footer>
+</body>
+
+</html>
